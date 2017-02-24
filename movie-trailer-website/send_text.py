@@ -7,7 +7,7 @@ auth_token = "33bc05e5a813e49e1a8d2ecd0a606e96"
 client = TwilioRestClient(account_sid, auth_token)
 
 message = client.messages.create(body="Saonimabi",
-    to="+15712391622",
+    to="+17654795778",
     from_="+12103615823")
 
 print(message.sid)
